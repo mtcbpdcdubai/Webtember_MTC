@@ -1,0 +1,1 @@
+export const aboutJourneyImage = "/src/assets/images/donald_2.jpeg";
