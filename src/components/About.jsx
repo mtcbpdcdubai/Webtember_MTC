@@ -1,6 +1,7 @@
 import React from 'react';
 import { BookOpen, Code, Coffee, Zap } from 'lucide-react';
-import { aboutJourneyImage } from '../assets/images';
+
+import donald_2 from '../assets/images/donald_2.jpeg';
 
 const About = () => {
   const highlights = [
@@ -42,7 +43,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src={aboutJourneyImage}
+                src={donald_2}
                 alt="Donald Trump's tremendous journey"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />

@@ -1,1 +1,0 @@
-export { aboutJourneyImage } from './about-journey.js';
