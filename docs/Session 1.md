@@ -173,19 +173,19 @@ module.exports = {
 
 
 
-**Add Tailwind directives to src/index.css:**
+    **Add Tailwind directives to src/index.css:**
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-**Start the project:**
-
-npm start
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
 
-Tailwind Documentation: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
+    **Start the project:**
+
+    npm start
+
+
+    Tailwind Documentation: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
 
 
 
