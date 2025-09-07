@@ -1,12 +1,16 @@
 import React from 'react';
 import { ExternalLink, Github, Code } from 'lucide-react';
 
+import donald_3 from "../assets/images/donald_3.jpeg";
+import donald_4 from "../assets/images/donald_4.jpeg";
+import donald_1 from "../assets/images/donald_1.jpeg";
+
 const Projects = () => {
   const projects = [
     {
       title: "Student Library Management System",
       description: "Comprehensive library management system designed for educational institutions. Features include book cataloging, student registration, borrowing/returning system, and administrative dashboard.",
-      image: "/src/assets/images/donald_3.jpeg",
+      image: donald_3,
       technologies: ["Python", "Database Management", "GUI", "File Handling", "OOP"],
       githubUrl: "https://github.com/astro-prog/Student-Library-Management-System",
       liveUrl: "#"
@@ -14,7 +18,7 @@ const Projects = () => {
     {
       title: "Morse Code Quiz Generator",
       description: "Interactive educational tool that generates Morse code quizzes to help users learn and practice Morse code. Features multiple difficulty levels and progress tracking.",
-      image: "/src/assets/images/donald_4.jpeg",
+      image: donald_4,
       technologies: ["Java", "GUI", "Translator Quiz", "Educational Tool"],
       githubUrl: "https://github.com/astro-prog/Morse-Code-quiz-generator",
       liveUrl: "#"
@@ -22,7 +26,7 @@ const Projects = () => {
     {
       title: "UAE Weather Hub",
       description: "Comprehensive weather application specifically designed for UAE locations. Provides real-time weather data, forecasts, and climate information for major UAE cities.",
-      image: "/src/assets/images/donald_1.jpeg",
+      image: donald_1,
       technologies: ["Weather API", "JavaScript", "Responsive Design", "Location Services", "Data Visualization"],
       githubUrl: "https://github.com/astro-prog/Uae-Weather-Hub",
       liveUrl: "#"

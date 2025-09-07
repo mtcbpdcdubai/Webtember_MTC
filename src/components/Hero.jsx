@@ -1,6 +1,8 @@
 import React from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 
+import donald_1 from "../assets/images/donald_1.jpeg";
+
 const Hero = () => {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
@@ -16,7 +18,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900 overflow-hidden">
               <img 
-                src="/src/assets/images/donald_1.jpeg" 
+                src={donald_1}
                 alt="Donald Trump" 
                 className="w-full h-full object-cover"
               />
@@ -50,7 +52,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="#"
+              href="mailto:microsofttechclub@dubai.bits-pilani.ac.in"
               className="p-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <Mail size={24} />
