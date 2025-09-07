@@ -159,7 +159,7 @@ Follow the steps below to set up your development environment and start building
 
    # Tailwind CSS Configuration
 
-This is the configuration file for Tailwind CSS. It specifies which files Tailwind should scan for class names and allows you to customize the theme and plugins.
+This is your Tailwind CSS config file. It tells Tailwind which files to scan and allows customization.
 
 ```javascript
 /** @type {import('tailwindcss').Config} */
@@ -172,23 +172,16 @@ module.exports = {
   },
   plugins: [],
 }
+     
 
-           
-
-
-
-    **Add Tailwind directives to src/index.css:**
-
+   ``` **Add Tailwind directives to src/index.css:**
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
 
 
     **Start the project:**
-
     npm start
-
-
     Tailwind Documentation: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
 
 
