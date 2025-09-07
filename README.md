@@ -9,7 +9,6 @@ A modern, responsive portfolio website showcasing the tremendous achievements, b
 - **Smooth Animations**: Engaging micro-interactions and hover effects
 - **Modern UI**: Clean, professional design with gradient backgrounds
 - **Interactive Navigation**: Smooth scrolling between sections
-- **Contact Form**: Functional contact form for tremendous opportunities
 - **Project Showcase**: Detailed project cards with technologies and links
 - **Presidential Theme**: Beautiful design worthy of the highest office
 
@@ -27,8 +26,7 @@ A modern, responsive portfolio website showcasing the tremendous achievements, b
 2. **About**: Personal background highlighting tremendous deals and achievements
 3. **Skills**: Technical skills organized by category (Frontend, Backend, Tools)
 4. **Projects**: Featured projects including library management, morse code quiz, and weather applications
-5. **Contact**: Contact form and information for business opportunities
-6. **Footer**: Additional links and attribution to MTC_BPDC
+5. **Footer**: Additional links and attribution to MTC_BPDC
 
 ## Projects Featured
 
