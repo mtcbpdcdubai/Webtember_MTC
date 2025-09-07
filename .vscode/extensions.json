@@ -3,6 +3,7 @@
         "dsznajder.es7-react-js-snippets",
         "dbaeumer.vscode-eslint",
         "bradlc.vscode-tailwindcss",
-        "wayou.vscode-todo-highlight"
+        "wayou.vscode-todo-highlight",
+        "csstools.postcss"
     ]
 }
