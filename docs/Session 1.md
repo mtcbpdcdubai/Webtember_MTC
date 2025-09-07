@@ -204,84 +204,85 @@ Before you can start writing code, you need to set up your development environme
 # **6. Project setup**
 Follow the steps below to set up your development environment and start building your portfolio website:
 
-1. **Install Visual Studio Code (VS Code)**  
-   - Download: [https://code.visualstudio.com/](https://code.visualstudio.com/)  
-   - Recommended Extensions: Live Server, Prettier, ES7+ React/Redux/React-Native snippets  
+1. **Install Visual Studio Code (VS Code)**
+   - Download: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+   - Recommended Extensions: Live Server, Prettier, ES7+ React/Redux/React-Native snippets
 
-2. **Install a modern web browser**  
-   - Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/)  
-   - Mozilla Firefox: [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/)  
+2. **Install a modern web browser**
+   - Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/)
+   - Mozilla Firefox: [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/)
 
-3. **Install Git and create a GitHub account**  
-   - Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)  
-   - GitHub: [https://github.com/join](https://github.com/join)  
+3. **Install Git and create a GitHub account**
+   - Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+   - GitHub: [https://github.com/join](https://github.com/join)
 
-   **Basic Git Commands:**  
+   **Basic Git Commands:**
    ```bash
-   git init                  # Initialize Git repository
-   git clone <repository>    # Clone a repository
-   git status                # Check Git status
-   
+   git init               # Initialize Git repository
+   git clone <repository> # Clone a repository
+   git status             # Check Git status
+
 4. **Install Node.js and npm**
     Download: [https://nodejs.org/en/download/]([https://nodejs.org/en/download/])
     Check Installation:
+    ```shell
     node -v
     npm -v
+    ```
 
- 5. **Use the Terminal / Command Line**
+5. **Use the Terminal / Command Line**
     - Windows: Command Prompt or Git Bash
     - macOS/Linux: Built-in Terminal
 
     Useful Commands:
-    cd <folder_name>          # Navigate directories
-    mkdir <folder_name>       # Create a new folder
+    ```shell
+    cd <folder_name>    # Navigate directories
+    mkdir <folder_name> # Create a new folder
+    ```
 
+6. **Create a React App**
 
- 6. **Create a React App**
-
-    cd <your-project-folder>       # Navigate to your project folder
-    npx create-react-app my-portfolio   # Create a new React app
-    cd my-portfolio                # Navigate into the project
-    npm start                       # Start the development server
+    ```shell
+    cd <your-project-folder>          # Navigate to your project folder
+    npx create-react-app my-portfolio # Create a new React app
+    cd my-portfolio                   # Navigate into the project
+    npm start                         # Start the development server
+    ```
 
     React Documentation: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 
 7. **Install and Configure Tailwind CSS**
 
+    ```shell
     cd my-portfolio
     npm install -D tailwindcss postcss autoprefixer
     npx tailwindcss init -p
+    ```
 
-   # Tailwind CSS Configuration
+    This is your Tailwind CSS config file. It tells Tailwind which files to scan and allows customization.
+    ```js
+    /** @type {import('tailwindcss').Config} */
+    module.exports = {
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+    ```
 
-This is your Tailwind CSS config file. It tells Tailwind which files to scan and allows customization.
-```javascript
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
-
-**Add Tailwind directives to src/index.css:**
+    **Add Tailwind directives to src/index.css:**
+    ```css
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+    ```
 
-**Start the project:**
+    **Start the project:**
+    ```shell
     npm start
+    ```
+
     Tailwind Documentation: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
-     
-
-
-    
-
-
-
-
-
