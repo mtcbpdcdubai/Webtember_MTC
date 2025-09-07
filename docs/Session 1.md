@@ -28,8 +28,6 @@ This hands-on workshop is designed to give participants a practical understandin
 
 The workshop provides a **concise and practical briefing** on HTML, CSS, JavaScript, and React.js, helping you connect the dots and build a modern web application from scratch.
 
----
-
 ## Workshop Overview
 
 In this session, you will learn:
@@ -53,8 +51,6 @@ In this session, you will learn:
    - Install and use VS Code.
    - Learn basic terminal commands essential for project development.
 
----
-
 ## Key Takeaways
 
 By the end of the workshop, you will be able to:
@@ -69,10 +65,7 @@ By the end of the workshop, you will be able to:
 
 ---
 
-Let's start building your web development journey!
 
-
----
 
 ## **2. Components of a "Tech stack"**
 A tech stack is the combination of all the technologies we use to build and run an entire application. Here, "stack" refers to the way these different technologies are "layered" on top of each other to create a complete application. It includes the following aspects:
