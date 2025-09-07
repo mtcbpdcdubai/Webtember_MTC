@@ -157,10 +157,12 @@ Follow the steps below to set up your development environment and start building
     npm install -D tailwindcss postcss autoprefixer
     npx tailwindcss init -p
 
+   # Tailwind CSS Configuration
 
-    **Configure tailwind.config.js:**
+This is the configuration file for Tailwind CSS. It specifies which files Tailwind should scan for class names and allows you to customize the theme and plugins.
 
-    /** @type {import('tailwindcss').Config} */
+```javascript
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -170,6 +172,8 @@ module.exports = {
   },
   plugins: [],
 }
+
+           
 
 
 
