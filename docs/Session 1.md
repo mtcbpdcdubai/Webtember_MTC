@@ -16,7 +16,11 @@ Table of contents:
 5. [Useful tips](#5-useful-tips)
 6. [Project setup](#6-project-setup)
 
+
+
 ---
+
+
 
 # **1. Introduction**
 
@@ -45,6 +49,8 @@ By the end of the workshop, you will be able to:
 - Use **Git and GitHub** for version control and project sharing.
 - Build and **deploy your own portfolio website**.
 
+
+
 ---
 
 
@@ -53,13 +59,13 @@ By the end of the workshop, you will be able to:
 A tech stack is the combination of all the technologies we use to build and run an entire application. Here, "stack" refers to the way these different technologies are "layered" on top of each other to create a complete application.
 
 You can It includes the following aspects:
-- Programming languages (JavaScript, [Python](https://python.org), …)
+- Languages (HTML, CSS, JavaScript, [Python](https://python.org), …)
 - Frameworks and libraries ([React](https://react.dev), [Angular](https://angular.dev), …)
 - Databases ([MySQL](https://mysql.com), [PostgreSQL](https://postgresql.org), [MongoDB](https://mongodb.com), …)
 - Tools
-    - Version control ([Git](https://git-scm.com), [GitHub](https://github.com), …)
-    - Package managers ([npm](https://www.npmjs.com), [pip](https://pypi.org/), …)
-    - Build tools and bundlers ([Vite](https://vite.dev), [Babel](https://babeljs.io), …)
+    - Version control - for tracking the history of your codebase, and revert any mistakes ([Git](https://git-scm.com), [GitHub](https://github.com), …)
+    - Package managers - for installing libraries and frameworks ([npm](https://www.npmjs.com), [pip](https://pypi.org/), …)
+    - Build tools and bundlers - for converting and optimizing your code into something that can run *fast* ([Vite](https://vite.dev), [Babel](https://babeljs.io), …)
 - APIs
 - etc…
 
@@ -88,23 +94,86 @@ The tech stack chosen for any given application can also be described using thes
     - Storing the courses that you are enrolled into
     - Storing your past conversations you've had with ChatGPT
 
+Fun fact! A "full-stack" developer is someone who's capable of developing on both the front-end as well as the back-end.
+
+
+
 ---
+
+
 
 # **3. Web dev concepts**
 <!-- TODO: content -->
-<img src="media/1_html_css_js.png" />
+
+## *Some terms and words*
+Here's some terms you'll come across very frequently:
+
+1. **HTML:** Code used to describe the **structure** and **content** of your website. Think of it as the skeleton.
+2. **CSS:** Code used to describe the **aesthetics** of your website.
+3. **JS:** Code used to add functionality to the website. When you have some buttons on your website, you'd want them to *actually* do something, right? :)
+4. **Framework vs. Library:** You'll hear these two terms a lot.
+    - A Library (e.g., React) is a collection of pre-written code that you can call upon when you need it. It's like a toolkit; you're in charge and you pick the tools you need.
+    - A Framework (e.g., Angular, Django) is a more rigid structure or blueprint for an application. It provides the scaffolding, and you build your code within its rules. The framework calls your code.
+5. **Static page:** Websites where all the back-end does is to simply give the code files to the client, and there is **no database**. The server itself does not do any kind of significant processing. But keep in mind that the **client** can still be user-interactive with buttons and animations!
+
+
+<p align="center">
+<img src="media/1_html_css_js.png" width="600" /><br />
+(<a href="https://www.facebook.com/1499183006955896/">source</a>)
+</p>
+
+
+## *Tech stacks*
+Now that you know what a "tech stack" is, let's explore the tech stack involved in web development.
+
+1. **Front-end**
+
+    For web development, the front-end here is in most cases your **web-browser**, like Google Chrome, Mozilla Firefox, etc. The web browser handles the following tasks:
+    - Requesting the server for the webpage's HTML, CSS, JS code
+    - Visually rendering the HTML, CSS, JS code to you, the user
+
+2. **Back-end**
+
+    For web development, there are so many options for back-end, so there isn't one "definite" choice here. The back-end performs these roles:
+    - Listen for clients' requests using the HTTP protocol (i.e. a HTTP server)
+    - Do processing, such as fetching from database, compiling results, and formatting them
+    - Respond to clients' requests with the code from HTML, CSS, JS files located on the server, including the resulting data generated in the previous step
+
+Here's the popular tech stacks used for web development:
+
+- **LAMP:** **L**inux (OS), **A**pache (HTTP server), **M**ySQL (database), **P**HP (the server-side programming language)
+- **MERN:** **M**ongoDB (database), **E**xpress.js (a back-end framework), **R**eact (a front-end JavaScript library), and **N**ode.js (the server-side runtime environment)
+
+> [!NOTE]
+> In this workshop, we'll be building a **static page portfolio**. The server itself does not do any kind of processing.
+> For this reason, there are many popular hosting provides that give static page hosting for free. Examples:
+> - GitHub Pages
+> - Netlify
+> - Vercel
+
+
 
 ---
+
+
 
 # **4. Dev setup prerequisites**
 <!-- TODO: content -->
 
+
+
 ---
+
+
 
 # **5. Useful tips**
 <!-- TODO: content -->
 
+
+
 ---
+
+
 
 # **6. Project setup**
 Follow the steps below to set up your development environment and start building your portfolio website:
