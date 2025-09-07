@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            Microsoft <span className="text-blue-600 dark:text-blue-400">Tech Club</span>
+            Donald <span className="text-blue-600 dark:text-blue-400">Trump</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
