@@ -20,7 +20,57 @@ Table of contents:
 ---
 
 ## **1. Introduction**
-<!-- TODO: content -->
+# Webtember Workshop Series
+
+Welcome to the **Webtember Workshop Series**!
+
+This hands-on workshop is designed to give participants a practical understanding of web development. By the end of the session, you'll have the skills to build your own portfolio website similar to [this example](https://webtembermtc.netlify.app/).
+
+The workshop provides a **concise and practical briefing** on HTML, CSS, JavaScript, and React.js, helping you connect the dots and build a modern web application from scratch.
+
+---
+
+## Workshop Overview
+
+In this session, you will learn:
+
+1. **Basics of HTML**  
+   - Understand the structure of a webpage using essential tags and elements (brief overview).
+
+2. **Basics of CSS**  
+   - Style your webpage effectively using selectors, properties, and layouts (brief overview).
+
+3. **Basics of JavaScript**  
+   - Add interactivity and dynamic behavior to your website (brief overview).
+
+4. **Introduction to React.js**  
+   - Learn how to integrate HTML, CSS, and JS into React components to build modern web apps.
+
+5. **Version Control with Git & GitHub**  
+   - Set up your GitHub account, use basic Git commands, and share your project online.
+
+6. **Development Environment Setup**  
+   - Install and use VS Code.
+   - Learn basic terminal commands essential for project development.
+
+---
+
+## Key Takeaways
+
+By the end of the workshop, you will be able to:
+
+- Understand the **basic structure of a web page using HTML**.
+- Style web pages effectively with **CSS**.
+- Add interactivity using **JavaScript**.
+- Build and understand **React.js components** and how HTML, CSS, and JS integrate.
+- Set up **VS Code** and use the **terminal for development tasks**.
+- Use **Git and GitHub** for version control and project sharing.
+- Build and **deploy your own portfolio website**.
+
+---
+
+Let's start building your web development journey!
+
 
 ---
 
