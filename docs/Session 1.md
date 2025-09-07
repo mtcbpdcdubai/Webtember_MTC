@@ -103,7 +103,6 @@ Fun fact! A "full-stack" developer is someone who's capable of developing on bot
 
 
 # **3. Web dev concepts**
-<!-- TODO: content -->
 
 ## *Some terms and words*
 Here's some terms you'll come across very frequently:
@@ -115,13 +114,12 @@ Here's some terms you'll come across very frequently:
     - A Library (e.g., React) is a collection of pre-written code that you can call upon when you need it. It's like a toolkit; you're in charge and you pick the tools you need.
     - A Framework (e.g., Angular, Django) is a more rigid structure or blueprint for an application. It provides the scaffolding, and you build your code within its rules. The framework calls your code.
 5. **Static page:** Websites where all the back-end does is to simply give the code files to the client, and there is **no database**. The server itself does not do any kind of significant processing. But keep in mind that the **client** can still be user-interactive with buttons and animations!
-
+6. **Deployment:** The act of publishing your code to a back-end provider, and make it publicly available.
 
 <p align="center">
 <img src="media/1_html_css_js.png" width="600" /><br />
 (<a href="https://www.facebook.com/1499183006955896/">source</a>)
 </p>
-
 
 ## *Tech stacks*
 Now that you know what a "tech stack" is, let's explore the tech stack involved in web development.
@@ -158,7 +156,30 @@ Here's the popular tech stacks used for web development:
 
 
 # **4. Dev setup prerequisites**
-<!-- TODO: content -->
+Before you can start writing code, you need to set up your development environment.
+
+1. **The Code Editor**
+
+    A code editor is a specialized text editor designed for writing software. While you could technically write code in Notepad, a proper code editor provides features that are essential for modern development. **Visual Studio Code** (VS Code) is the most popular choice in the industry, since it's free and it has a massive ecosystem of extensions. Download it [here](https://code.visualstudio.com/download).
+
+    **Workspace:** It's one of the most critical concepts of VS Code. It gives you the following benefits:
+    - You get a file tree view on the side, showing every file and folder in your project.
+    - You get smarter autocomplete ("IntelliSense"). It can suggest variable names, function definitions, and import paths from other files in your project.
+    - You can search for anything across every single file in your project instantly.
+    - VS Code includes a built-in **terminal** that automatically starts in your project's root folder, so you can run commands like `git` or `npm` in the same window.
+
+    **Extensions** are add-ons that enhance VS Code's functionality. They add support for languages, help you format your code consistently, catch errors before you even run the code, and automate repetitive tasks. Here's some useful ones:
+    - **Prettier:** An automatic code formatter that keeps your code style consistent.
+    - **ESLint:** Analyzes your JavaScript and highlights potential errors or bad patterns.
+    - **Live Server:** Instantly launches a local development server and reloads the page automatically whenever you save a file.
+
+2. **Version Control: Git & GitHub**
+
+    Version control is a system that tracks changes to your files over time. It's like a "save" button for your entire project, allowing you to go back to any previous version.
+
+    **Git vs. GitHub:**
+    - **Git** is the actual version control software that runs on your computer. It does the work of tracking changes and history.
+    - **GitHub** is a web-based platform (now owned by Microsoft) that hosts your Git repositories. It's where you store your code remotely (in the cloud). It adds a collaborative layer on top of Git, with features for teamwork, issue tracking, and more. (Alternatives include GitLab and Bitbucket).
 
 
 
@@ -167,7 +188,12 @@ Here's the popular tech stacks used for web development:
 
 
 # **5. Useful tips**
-<!-- TODO: content -->
+1. Ensure you're in the correct folder before you run a command.
+
+2. Here's some good practices for making *useful* commits:
+    1. **Make Small, "Atomic" Commits:** Each commit should be a single, logical change. For example, a commit to "Add user login form" is much better than a huge commit that "Fixed bugs, added features, and updated styling."
+    2. **Write Clear Commit Messages:** Your future self (and your teammates) will thank you. A good commit message briefly explains *what* the change is and *why* you made it. Use "Fix login bug" instead of "made some changes bruh lmao idk"
+    3. **Commit Often:** Don't wait until the end of the day. Frequent commits create a detailed history of your project's progress.
 
 
 
