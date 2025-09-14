@@ -88,5 +88,6 @@ h1 {
 
 ***
 
-This README provides a beginner-friendly guide for web development project setup, including essential concepts, code examples, and practical workflow steps.
+This doc provides a beginner-friendly guide for web development project setup, including essential concepts, code examples, and practical workflow steps.
+Happy Learning &hearts;
 
