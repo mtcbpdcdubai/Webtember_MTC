@@ -1,8 +1,4 @@
-- check title if it's okay
-- create multiple versions of this file, to demonstrate in VCS
--->
-
-<b><h1 align="center"><img src="media/logo.svg"> WEBTEMBER - Session 1</h1></b>
+<b><h1 align="center"><img src="media/logo.svg"> WEBTEMBER - Session 2</h1></b>
 
 14/Sep/2025 - Sunday<br>
 Presenter: Astha Adhikary
