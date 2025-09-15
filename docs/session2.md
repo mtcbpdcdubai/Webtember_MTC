@@ -1,3 +1,7 @@
+<b><h1 align="center"><img src="media/logo.svg"> WEBTEMBER - Session 2</h1></b>
+
+14/Sep/2025 - Sunday<br>
+Presenter: Astha Adhikary
 ## Boilerplate Code Shortcut Key
 
 - In most code editors (like VS Code), typing `!` and pressing the **Tab** key inside an empty HTML file expands a basic **HTML boilerplate** instantly.
@@ -88,5 +92,6 @@ h1 {
 
 ***
 
-This README provides a beginner-friendly guide for web development project setup, including essential concepts, code examples, and practical workflow steps.
+This doc provides a beginner-friendly guide for web development project setup, including essential concepts, code examples, and practical workflow steps.
+Happy Learning &hearts;
 
