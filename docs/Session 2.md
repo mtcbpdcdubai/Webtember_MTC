@@ -1,11 +1,32 @@
-<b><h1 align="center"><img src="media/logo.svg"> WEBTEMBER - Session 2</h1></b>
+<b><h1 align="center"><img src="media/logo.svg">WEBTEMBER - Session 2</h1></b>
 
 14/Sep/2025 - Sunday<br>
 Presenter: Astha Adhikary
+<!-- TODO: Add GDrive recording link -->
+
+Table of contents:
+1. [Boilerplate Code Shortcut Key](#boilerplate-code-shortcut-key)
+2. [Definitions](#definitions)
+3. [HTML and CSS Example Code](#html-and-css-example-code)
+4. [Setting Up a GitHub Repository](#setting-up-a-github-repository)
+5. [Introduction to React.js](#introduction-to-reactjs)
+6. [Homework](#homework)
+
+
+
+---
+
+
+
 ## Boilerplate Code Shortcut Key
 
 - In most code editors (like VS Code), typing `!` and pressing the **Tab** key inside an empty HTML file expands a basic **HTML boilerplate** instantly.
 - This shortcut helps quickly set up the fundamental HTML structure.
+
+
+
+---
+
 
 
 ## Definitions
@@ -21,6 +42,12 @@ Presenter: Astha Adhikary
 ### Tailwind CSS
 
 **Tailwind CSS** is a popular utility-first CSS framework. It offers low-level utility classes that let developers build custom designs directly in their markup without writing custom CSS for each style, speeding up UI development.
+
+
+
+---
+
+
 
 ## HTML and CSS Example Code
 
@@ -41,7 +68,6 @@ Presenter: Astha Adhikary
 </html>
 ```
 
-
 ### CSS Example
 
 ```css
@@ -53,6 +79,11 @@ h1 {
   color: #0088cc;
 }
 ```
+
+
+
+---
+
 
 
 ## Setting Up a GitHub Repository
@@ -80,17 +111,33 @@ h1 {
 4. Click "Install" on the extension by Ritwick Dey.
 5. After installation, right-click an HTML file and select **"Open with Live Server"** to preview changes in real time.
 
+
+
+---
+
+
+
 ## Introduction to React.js
 
 **React.js** is a popular JavaScript library for building dynamic and interactive user interfaces, especially for single-page applications. Developed by Facebook, React allows developers to create reusable UI components, manage application state efficiently, and update only necessary parts of the DOM when data changes for optimal performance.
 
+
+
+---
+
+
+
 ## Homework
 
-- Explore the following MDN References for deeper understanding:
-    - [HTML Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - [CSS Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+Explore the following MDN References for deeper understanding:
+- [HTML Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-***
+
+
+---
+
+
 
 This doc provides a beginner-friendly guide for web development project setup, including essential concepts, code examples, and practical workflow steps.
 Happy Learning &hearts;

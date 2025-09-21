@@ -1,3 +1,24 @@
+<b><h1 align="center"><img src="docs/media/logo.svg">WEBTEMBER</h1></b>
+
+Presenters:
+- Sreenikethan Iyer
+- Astha Adhikary
+
+---
+
+Welcome to Webtember! This workshop consists of 4 sessions. You can read their
+corresponding documentations here:
+- 👉 [Session 1](docs/Session%201.md)
+- 👉 [Session 2](docs/Session%202.md)
+- 👉 [Session 3](docs/Session%203.md)
+<!-- - 👉 [Session 4](docs/Session%204.md) -->
+
+
+
+---
+
+
+
 # Donald Trump Portfolio
 
 A modern, responsive portfolio website showcasing the tremendous achievements, beautiful projects, and winning skills of Donald Trump - Business Mogul and Former President of the United States.

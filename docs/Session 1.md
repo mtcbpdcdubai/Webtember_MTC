@@ -1,7 +1,8 @@
-<b><h1 align="center"><img src="media/logo.svg"> WEBTEMBER - Session 1</h1></b>
+<b><h1 align="center"><img src="media/logo.svg">WEBTEMBER - Session 1</h1></b>
 
 07/Sep/2025 - Sunday<br>
 Presenter: Sreenikethan Iyer
+<!-- TODO: Add GDrive recording link -->
 
 Table of contents:
 1. [Introduction](#1-introduction)
