@@ -18,7 +18,7 @@ Table of contents:
 
 
 
-## Boilerplate Code Shortcut Key
+# **1. Boilerplate Code Shortcut Key**
 
 - In most code editors (like VS Code), typing `!` and pressing the **Tab** key inside an empty HTML file expands a basic **HTML boilerplate** instantly.
 - This shortcut helps quickly set up the fundamental HTML structure.
@@ -29,7 +29,7 @@ Table of contents:
 
 
 
-## Definitions
+# **2. Definitions**
 
 ### HTML
 
@@ -49,7 +49,7 @@ Table of contents:
 
 
 
-## HTML and CSS Example Code
+# **3. HTML and CSS Example Code**
 
 ### HTML Example
 
@@ -86,7 +86,7 @@ h1 {
 
 
 
-## Setting Up a GitHub Repository
+# **4. Setting Up a GitHub Repository**
 
 ### Creating a New Repository and Uploading Code
 
@@ -117,7 +117,7 @@ h1 {
 
 
 
-## Introduction to React.js
+# **5. Introduction to React.js**
 
 **React.js** is a popular JavaScript library for building dynamic and interactive user interfaces, especially for single-page applications. Developed by Facebook, React allows developers to create reusable UI components, manage application state efficiently, and update only necessary parts of the DOM when data changes for optimal performance.
 
@@ -127,7 +127,7 @@ h1 {
 
 
 
-## Homework
+# **6. Homework**
 
 Explore the following MDN References for deeper understanding:
 - [HTML Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
