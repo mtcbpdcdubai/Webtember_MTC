@@ -19,7 +19,7 @@ Table of contents:
 # **1. Intro to JavaScript**
 It's a programming language used for both front-end and back-end development. For Webtember, we'll be using it for front-end only.
 
-Do note that learning a programming language takes a lot of effort, time and dedication. This session helps you to get started on essential basics, so that you get the "vibe" of it. A lot of stuff covered here is primarily useful for React.
+Do note that learning a programming language takes a lot of effort, time and dedication. This session helps you to get started on essential basics, so that you get the ✨*vibe*✨ of it. A lot of stuff covered here is primarily useful for React.
 
 Here's a summary:
 
@@ -95,7 +95,7 @@ Here's a summary:
         ```js
         const numbers = [1, 2, 3];
 
-        const doubled = numbers.map( num => num * 2 );
+        const doubled = numbers.map( (num) => num * 2 ); // that's an arrow function!!
 
         console.log(doubled); // Output: [2, 4, 6]
         ```
@@ -107,8 +107,13 @@ Here's a summary:
 
 
 # **2. Intro to React**
-<!-- introduce React -->
-<!-- introduce Vite -->
+React.js is a popular JavaScript library for building dynamic and interactive user interfaces, especially for single-page applications. Its main selling point is the fact that it uses something called a "virtual DOM", which helps to improve performance when updating any elements on the page!
+
+Now, React uses a variant of JavaScript called "JSX", which browsers can't execute. That's where you need Vite.<br>
+Vite is a build tool. Here's what it offers you:
+1. Converts JSX code into regular JS code, so that your browsers can run it.
+2. Super fast reloading of webpage whenever you make a change.
+3. Compacts and merges all your JS code into just a few files, improving the loading times. Kind of like WALL·E 🤖 <!-- wassup, curious perceiver  -->
 
 
 
@@ -117,16 +122,50 @@ Here's a summary:
 
 
 # **3. Create a React project**
-Create a template React project, using Vite:
-```shell
-npm create vite@latest . -- --template react
-npm i
-```
+1. Create a template React project, using Vite. ([official docs](https://v3.tailwindcss.com/docs/guides/vite))
 
-Do a test run:
-```shell
-npm run dev
-```
+    In your Documents folder, run these commands, **one by one**. Here, `my-portfolio` is the folder name. Change it to whatever you want.
+
+    ```shell
+    npm create vite@latest my-portfolio -- --template react
+    cd my-portfolio
+    npm install -D tailwindcss@3 postcss autoprefixer
+    npx tailwindcss init -p
+    ```
+
+2. Open this folder in VS Code.
+    ```shell
+    code .
+    ```
+
+3. Let's configure Tailwind CSS.
+
+    Open `tailwind.config.js`, and replace `content: []` with the following:
+    ```js
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    ```
+
+    Open `src/index.css`, and add these at the top:
+    ```css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+
+4. Install these extensions inside VS Code:
+    - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+    - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
+
+5. Do a test run:
+
+    ```shell
+    npm run dev
+    ```
 
 
 
@@ -136,3 +175,4 @@ npm run dev
 
 # **4. Build portfolio website**
 
+🔥
