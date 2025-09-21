@@ -5,12 +5,12 @@ Presenter: Astha Adhikary
 <!-- TODO: Add GDrive recording link -->
 
 Table of contents:
-1. [Boilerplate Code Shortcut Key](#boilerplate-code-shortcut-key)
-2. [Definitions](#definitions)
-3. [HTML and CSS Example Code](#html-and-css-example-code)
-4. [Setting Up a GitHub Repository](#setting-up-a-github-repository)
-5. [Introduction to React.js](#introduction-to-reactjs)
-6. [Homework](#homework)
+1. [Boilerplate Code Shortcut Key](#1-boilerplate-code-shortcut-key)
+2. [Definitions](#2-definitions)
+3. [HTML and CSS Example Code](#3-html-and-css-example-code)
+4. [Setting Up a GitHub Repository](#4-setting-up-a-github-repository)
+5. [Introduction to React.js](#5-introduction-to-reactjs)
+6. [Homework](#6-homework)
 
 
 
