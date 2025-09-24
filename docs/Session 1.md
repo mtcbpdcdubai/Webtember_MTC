@@ -2,7 +2,6 @@
 
 07/Sep/2025 - Sunday<br>
 Presenter: Sreenikethan Iyer
-<!-- TODO: Add GDrive recording link -->
 
 Table of contents:
 1. [Introduction](#1-introduction)

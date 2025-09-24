@@ -2,7 +2,6 @@
 
 14/Sep/2025 - Sunday<br>
 Presenter: Astha Adhikary
-<!-- TODO: Add GDrive recording link -->
 
 Table of contents:
 1. [Boilerplate Code Shortcut Key](#1-boilerplate-code-shortcut-key)

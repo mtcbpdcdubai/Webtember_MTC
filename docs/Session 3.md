@@ -2,7 +2,6 @@
 
 21/Sep/2025 - Sunday<br>
 Presenter: Sreenikethan Iyer
-<!-- TODO: Add GDrive recording link -->
 
 Table of contents:
 1. [Intro to JavaScript](#1-intro-to-javascript)
@@ -19,7 +18,7 @@ Table of contents:
 # **1. Intro to JavaScript**
 It's a programming language used for both front-end and back-end development. For Webtember, we'll be using it for front-end only.
 
-Do note that learning a programming language takes a lot of effort, time and dedication. This session helps you to get started on essential basics, so that you get the ✨*vibe*✨ of it. A lot of stuff covered here is primarily useful for React.
+Keep in mind that learning a programming language takes a lot of effort, time and dedication. This session helps you to get started on essential basics, so that you get the ✨*vibe*✨ of it. A lot of stuff covered here is primarily useful for React.
 
 Here's a summary:
 
