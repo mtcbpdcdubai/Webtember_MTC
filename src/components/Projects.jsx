@@ -5,7 +5,7 @@ import donald_3 from "../assets/images/donald_3.jpeg";
 import donald_4 from "../assets/images/donald_4.jpeg";
 import donald_1 from "../assets/images/donald_1.jpeg";
 
-const Projects = () => {
+export default function Projects() {
   const projects = [
     {
       title: "Student Library Management System",
@@ -99,5 +99,3 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;

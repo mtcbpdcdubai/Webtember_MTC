@@ -1,7 +1,7 @@
 import React from 'react';
 import { Code, Database, Wrench, Star } from 'lucide-react';
 
-const Skills = () => {
+export default function Skills() {
   const skillCategories = [
     {
       title: "Frontend",
@@ -81,5 +81,3 @@ const Skills = () => {
     </section>
   );
 };
-
-export default Skills;

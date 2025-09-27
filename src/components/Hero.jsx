@@ -3,7 +3,7 @@ import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 
 import donald_1 from "../assets/images/donald_1.jpeg";
 
-const Hero = () => {
+export default function Hero() {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
     if (aboutSection) {
@@ -70,5 +70,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

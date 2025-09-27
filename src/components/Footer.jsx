@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="bg-gray-900 dark:bg-gray-950 text-white py-12">
       <div className="container mx-auto px-6">
@@ -50,5 +50,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

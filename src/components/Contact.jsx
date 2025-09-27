@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Instagram, MessageCircle, Star, Sparkles } from 'lucide-react';
 
-const Contact = () => {
+export default function Contact() {
   const contactInfo = [
     {
       icon: <Mail className="text-white" size={24} />,
@@ -137,5 +137,3 @@ const Contact = () => {
     </section>
   );
 };
-
-export default Contact;

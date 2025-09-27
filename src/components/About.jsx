@@ -3,7 +3,7 @@ import { BookOpen, Code, Coffee, Zap } from 'lucide-react';
 
 import donald_2 from '../assets/images/donald_2.jpeg';
 
-const About = () => {
+export default function About() {
   const highlights = [
     {
       icon: <Code className="text-blue-600" size={24} />,
@@ -87,5 +87,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;
