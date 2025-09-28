@@ -13,7 +13,7 @@ export default function Footer() {
                 Business Mogul and Former President passionate about making tremendous deals and building beautiful properties.
               </p>
             </div>
-            
+
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400 dark:text-gray-300">
@@ -23,7 +23,7 @@ export default function Footer() {
                 <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="text-lg font-semibold mb-4">Let's Connect</h4>
               <p className="text-gray-400 dark:text-gray-300 mb-4">
@@ -37,7 +37,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-800 dark:border-gray-700 pt-8 text-center">
             <p className="text-gray-400 dark:text-gray-300">
               Made &hearts; by Donald (President of USA)

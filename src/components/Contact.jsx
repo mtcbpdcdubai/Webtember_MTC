@@ -71,7 +71,7 @@ export default function Contact() {
               Let's Make a Deal
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Ready to work with the best? I'm always open to tremendous opportunities, 
+              Ready to work with the best? I'm always open to tremendous opportunities,
               beautiful partnerships, and winning conversations. Let's create something fantastic together!
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function Contact() {
                 className="group relative"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
-                
+
                 <div className="relative bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/30 dark:border-gray-700/30 group-hover:transform group-hover:-translate-y-2 h-64 flex flex-col justify-center">
                   <div className="text-center">
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
@@ -107,12 +107,12 @@ export default function Contact() {
 
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect With Me</h3>
-            
+
             <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join the winning team and stay connected with exclusive updates, behind-the-scenes content, 
+              Join the winning team and stay connected with exclusive updates, behind-the-scenes content,
               and the most tremendous projects. Together, we'll make everything great again!
             </p>
-            
+
             <div className="flex justify-center space-x-6">
               {socialLinks.map((social, index) => (
                 <a

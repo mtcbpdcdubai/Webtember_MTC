@@ -17,27 +17,27 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900 overflow-hidden">
-              <img 
+              <img
                 src={donald_1}
-                alt="Donald Trump" 
+                alt="Donald Trump"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Donald <span className="text-blue-600 dark:text-blue-400">Trump</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
             Business Mogul & President
           </p>
-          
+
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-            Making America Great Again through tremendous deals and beautiful buildings. 
+            Making America Great Again through tremendous deals and beautiful buildings.
             The most successful businessman and president you've ever seen.
           </p>
-          
+
           <div className="flex justify-center space-x-6 mb-12">
             <a
               href="https://github.com/mtcbpdcdubai"
@@ -58,7 +58,7 @@ export default function Hero() {
               <Mail size={24} />
             </a>
           </div>
-          
+
           <button
             onClick={scrollToAbout}
             className="animate-bounce p-2 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow"

@@ -46,18 +46,18 @@ export default function Skills() {
                 className="relative group"
               >
                 <div className={`absolute inset-0 bg-gradient-to-r ${category.color} rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
-                
+
                 <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-white/20 dark:border-gray-700/20">
                   <div className="flex items-center justify-center mb-6">
                     <div className={`p-4 bg-gradient-to-r ${category.color} rounded-xl shadow-lg`}>
                       {category.icon}
                     </div>
                   </div>
-                  
+
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
                     {category.title}
                   </h3>
-                  
+
                   <div className="space-y-6">
                     <div className="grid grid-cols-1 gap-3">
                       {category.skills.map((skill, skillIndex) => (

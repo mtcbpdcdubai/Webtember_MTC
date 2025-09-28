@@ -48,17 +48,17 @@ export default function About() {
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
-            
+
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">My Journey</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Started my business empire with a small loan of a million dollars and built it into 
-                a tremendous success. From real estate to reality TV to the White House, everything 
+                Started my business empire with a small loan of a million dollars and built it into
+                a tremendous success. From real estate to reality TV to the White House, everything
                 I touch turns to gold.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                When I'm not making deals, you'll find me on the golf course at Mar-a-Lago, 
-                tweeting tremendous thoughts, or hosting beautiful rallies. I believe in winning 
+                When I'm not making deals, you'll find me on the golf course at Mar-a-Lago,
+                tweeting tremendous thoughts, or hosting beautiful rallies. I believe in winning
                 so much that you'll get tired of winning.
               </p>
             </div>
