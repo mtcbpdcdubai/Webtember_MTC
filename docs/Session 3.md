@@ -7,7 +7,6 @@ Table of contents:
 1. [Intro to JavaScript](#1-intro-to-javascript)
 2. [Intro to React](#2-intro-to-react)
 3. [Create a React project](#3-create-a-react-project)
-4. [Build portfolio website](#4-build-portfolio-website)
 
 
 
@@ -114,6 +113,15 @@ Vite is a build tool. Here's what it offers you:
 2. Super fast reloading of webpage whenever you make a change.
 3. Compacts and merges all your JS code into just a few files, improving the loading times. Kind of like WALL·E 🤖 <!-- wassup, curious perceiver  -->
 
+## Components
+
+React has a really neat concept called "Component", which is one of the most important concepts. It can be thought of as "reusable HTML code"!
+
+Let's say you have some HTML code for displaying a person's name, image and details. You want to now repeat this 100 times for a hundred people. Well, you can't just copy-paste this 100 times! Even if you do so, it'll be difficult to make changes, since now you've to repeat every change 100 times.<br>
+Instead, you can define a React Component. A React Component is exactly what a normal "function" in JavaScript does, i.e. reusable code which can take inputs and give an output. In fact, a React Component is also just a regular JavaScript function!
+
+We'll cover this in detail in the next section.
+
 
 
 ---
@@ -121,9 +129,9 @@ Vite is a build tool. Here's what it offers you:
 
 
 # **3. Create a React project**
-1. Create a template React project, using Vite. ([official docs](https://v3.tailwindcss.com/docs/guides/vite))
+Create a template React project, using Vite and Tailwind. ([official docs for Vite](https://v3.tailwindcss.com/docs/guides/vite))
 
-    In your Documents folder, run these commands, **one by one**. Here, `my-portfolio` is the folder name. Change it to whatever you want.
+1. In your Documents folder, run these commands, **one by one**. Here, `my-portfolio` is the folder name. Change it to whatever you want.
 
     ```shell
     npm create vite@latest my-portfolio -- --template react
@@ -166,12 +174,40 @@ Vite is a build tool. Here's what it offers you:
     npm run dev
     ```
 
+6. Next, let's create our first Component!
 
+    Say you've made a really cool HTML and CSS code for showing the details of someone:
+    ```html
+    <div class="person">
+        <div class="person-image"> <img src="https://mtcbpdc.org/mtc.jpg"></div>
+        <div class="person-name">  Microsoft Tech Club</div>
+        <div class="person-about"> The best club to ever exist.</div>
+    </div>
+    ```
 
----
+    **Create a file** called `src/components/Person.jsx` (exact file path doesn't really matter, but it's just a convention), and place your HTML code in a default exported function as follows:
+    ```jsx
+    export default function Person({image, name, about}) {
+        return <div class="person">
+            <div class="person-image"> <img src={image}></div>
+            <div class="person-name">  {name}</div>
+            <div class="person-about"> {about}</div>
+        </div>;
+    }
+    ```
 
+    That's it! You've just made your first component! Now you can simply just use it as if it were yet another HTML tag!
+    ```jsx
+    // somewhere in your main app...
+    import Person from "../src/components/Person.jsx";
 
-
-# **4. Build portfolio website**
-
-🔥
+    export default function App() {
+        return <div>
+            {/*other stuff here...*/}
+            <Person image="https://mtcbpdc.org/mtc.jpg" name="Microsoft Tech Club" about="The best club to ever exist." />
+            <Person image="https://mtcbpdc.org/sreeni.jpg" name="Sreenikethan" about="DevOps Manager" />
+            <Person image="https://mtcbpdc.org/astha.jpg" name="Astha" about="Technical Executive" />
+            {/*other stuff here...*/}
+        </div>;
+    }
+    ```
