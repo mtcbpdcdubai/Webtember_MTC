@@ -8,8 +8,8 @@ Table of contents:
 2. [Components of a "Tech stack"](#2-components-of-a-tech-stack)
 3. [Web dev concepts](#3-web-dev-concepts)
 4. [Dev setup prerequisites](#4-dev-setup-prerequisites)
-5. [Useful tips](#5-useful-tips)
-6. [Project setup](#6-project-setup)
+5. [Project setup](#5-project-setup)
+6. [Useful tips](#6-useful-tips)
 
 
 
@@ -187,7 +187,7 @@ Follow the steps below to set up your development environment and start building
 
 1. Install Visual Studio Code (VS Code)
    - Download: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-   - Recommended extensions:
+   - Recommended extensions (<u>V</u>iew › E<u>x</u>tensions):
       - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
       - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
       - [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
@@ -195,20 +195,16 @@ Follow the steps below to set up your development environment and start building
       - [Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
       - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-2. Install a modern web browser
-   - [Google Chrome](https://google.com/chrome/)
-   - [Mozilla Firefox](https://firefox.com/)
-
-3. Install Git and create a GitHub account
+2. Install Git and create a GitHub account
    - [Git](https://git-scm.com/downloads)
    - [GitHub](https://github.com/join)
 
-   Basic Git Commands:
+   Basic Git commands:
    - `git init` - Initialize Git repository
    - `git clone <repository>` - Clone a repository
    - `git status` - Check Git status
 
-4. Install Node.js and npm
+3. Install Node.js and npm
     Download: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
     **For Windows users: scroll down to the "_Or get a prebuilt Node.js® for_" section**.
 
@@ -218,7 +214,7 @@ Follow the steps below to set up your development environment and start building
     npm -v
     ```
 
-5. Learn to use the Terminal / Command Line
+4. Learn to use the Terminal / Command Line
     - Windows: Command Prompt or Git Bash
     - macOS/Linux: Built-in Terminal
 
@@ -226,7 +222,7 @@ Follow the steps below to set up your development environment and start building
     - `cd <folder_name>` - Navigate directories
     - `mkdir <folder_name>` - Create a new folder
 
-6. Create a template React project, using Vite and Tailwind.
+5. Create a template React project, using Vite and Tailwind.
 
     ```shell
     npm create vite@latest my-portfolio -- --template react
@@ -237,7 +233,7 @@ Follow the steps below to set up your development environment and start building
 
     React Documentation: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 
-7. Configure Tailwind CSS
+6. Configure Tailwind CSS
 
     Open `tailwind.config.js`, and replace `content: []` with the following:
     ```js
@@ -254,7 +250,7 @@ Follow the steps below to set up your development environment and start building
     @tailwind utilities;
     ```
 
-8. Start the project:
+7. Start the project:
     ```shell
     npm run dev
     ```
