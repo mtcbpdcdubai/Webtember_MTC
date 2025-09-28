@@ -31,4 +31,7 @@ Table of contents:
 | GitHub Pages  | 1. Create a repo (`username.github.io` for a profile).<br>2. Add and push site files.<br>3. Go to Settings > Pages, select the branch/folder to deploy.<br>4. Save and get your live URL.<br>5. Push changes to update live site.                                | Use branches & pull requests.<br>Ensure HTTPS is checked in options.<br>Allow a few minutes for propagation.         |
 | Vercel        | 1. Push code to GitHub/GitLab/Bitbucket.<br>2. Sign up/log in at Vercel with your git provider.<br>3. Import repo and adjust build settings if necessary.<br>4. Deploy and access the `.vercel.app` link.<br>5. Optionally set a custom domain.                  | Use `vercel.json` for config.<br>Use preview deployments.<br>Store secrets with environment variables.<br>Use Vercel CLI if needed. |
 
+---
+Happy Learning &hearts; 
+
 
