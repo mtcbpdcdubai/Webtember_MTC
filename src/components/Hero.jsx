@@ -15,6 +15,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
+
           <div className="mb-8">
             <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900 overflow-hidden">
               <img

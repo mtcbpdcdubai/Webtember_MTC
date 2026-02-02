@@ -37,6 +37,7 @@ export default function Projects() {
     <section id="projects" className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
+
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Featured Projects
@@ -83,7 +84,7 @@ export default function Projects() {
 
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com/mtcbpdcdubai"
+                      href={project.githubUrl}
                       className="flex items-center space-x-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
                     >
                       <Github size={18} />
